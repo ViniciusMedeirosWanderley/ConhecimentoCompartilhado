@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Preparação4\tristate\simulation\modelsim
+Etestbench_tristate
+Z1 w1523632428
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dD:\Preparação4\tristate\simulation\modelsim
+Z7 8D:/Preparação4/tristate/testbench/testbench_tristate.vhd
+Z8 FD:/Preparação4/tristate/testbench/testbench_tristate.vhd
+l0
+L7
+V1^TR:V9bLPM^?:Y0[KlO]1
+!s100 gcEiEKY`giZCTUg2cXAU_2
+Z9 OV;C;10.0c;49
+31
+Z10 !s108 1523632437.903000
+Z11 !s90 -reportprogress|300|-93|-work|work|D:/Preparação4/tristate/testbench/testbench_tristate.vhd|
+Z12 !s107 D:/Preparação4/tristate/testbench/testbench_tristate.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+Asim
+R2
+R3
+R4
+R5
+DEx4 work 18 testbench_tristate 0 22 1^TR:V9bLPM^?:Y0[KlO]1
+l24
+L9
+VU_FdnB58HNg[dz0_N2;h=3
+!s100 7_XzQa2;CQ<3;5<?1?UCc1
+R9
+31
+R10
+R11
+R12
+R13
+R14
+Etristate
+Z15 w1523631766
+Z16 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z17 DPx9 stratixii 19 stratixii_atom_pack 0 22 T0J0kEemfNcUm@ODFF4c53
+Z18 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z19 DPx9 stratixii 20 stratixii_components 0 22 hgLjbn[[GbP0W6[fOHT0A0
+R4
+R5
+R6
+Z20 8tristate.vho
+Z21 Ftristate.vho
+l0
+L34
+VRz=A:Tgi@gdnlUn19`]^Y1
+R9
+31
+Z22 !s108 1523632437.308000
+Z23 !s90 -reportprogress|300|-93|-work|work|tristate.vho|
+Z24 !s107 tristate.vho|
+R13
+R14
+!s100 o2;=9;BmfUA>a?ZTgRb^51
+Astructure
+R16
+R17
+R18
+R19
+R4
+R5
+DEx4 work 8 tristate 0 22 Rz=A:Tgi@gdnlUn19`]^Y1
+l69
+L53
+VaYQJFEYamJ2EfoccIR=@13
+R9
+31
+R22
+R23
+R24
+R13
+R14
+!s100 NWL4zV25G2?=l^DzK<;PZ0

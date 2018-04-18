@@ -1,0 +1,50 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# do gates_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {F:/projeto3/gates.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity gates
+# -- Compiling architecture synth of gates
+# 
+# vcom -93 -work work {F:/projeto3/testbench/testbench_gates.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_gates
+# -- Compiling architecture sim of testbench_gates
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L cycloneii -L rtl_work -L work -voptargs="+acc" testbench_gates
+# vsim -L altera -L lpm -L sgate -L altera_mf -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testbench_gates 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_gates(sim)
+# Loading work.gates(synth)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Failure: Just kidding --256tests completed successfully.
+#    Time: 5115 ns  Iteration: 1  Process: /testbench_gates/line__71 File: F:/projeto3/testbench/testbench_gates.vhd
+# Break in Process line__71 at F:/projeto3/testbench/testbench_gates.vhd line 115
+# Simulation Breakpoint: Break in Process line__71 at F:/projeto3/testbench/testbench_gates.vhd line 115
+# MACRO ./gates_run_msim_rtl_vhdl.do PAUSED at line 17

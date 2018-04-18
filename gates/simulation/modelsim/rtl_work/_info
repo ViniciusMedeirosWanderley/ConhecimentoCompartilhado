@@ -1,0 +1,64 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\projeto3\simulation\modelsim
+Egates
+Z1 w1521822660
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 8F:/projeto3/gates.vhd
+Z4 FF:/projeto3/gates.vhd
+l0
+L3
+VMPR;bgFZ1D>C3W@RDRlVH2
+Z5 OV;C;6.5b;42
+31
+Z6 o-93 -work work -O0
+Z7 tExplicit 1
+!s100 ^5=zzEI:HNnL6Hj2DkRU40
+Asynth
+R2
+DEx4 work 5 gates 0 22 MPR;bgFZ1D>C3W@RDRlVH2
+l8
+L7
+V<2_DcDl6dh9a95>O6NJ3R0
+R5
+31
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 AmNo3@hgdG1N@ib;4_C9T1
+Etestbench_gates
+Z9 w1521825590
+Z10 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z11 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z12 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R2
+Z13 8F:/projeto3/testbench/testbench_gates.vhd
+Z14 FF:/projeto3/testbench/testbench_gates.vhd
+l0
+L7
+VK=ReI6eg5=FBahS>MWg^01
+!s100 Vb[M3ek@bJA2JGa_azQk<3
+R5
+31
+R6
+R7
+Asim
+R10
+R11
+R12
+R2
+DEx4 work 15 testbench_gates 0 22 K=ReI6eg5=FBahS>MWg^01
+l22
+L9
+VDKNXF=iZ]iaQQ>DR?lo_l0
+!s100 PLk^12OiKL=SiVDl_Pn4E3
+R5
+31
+Mx4 4 ieee 14 std_logic_1164
+Mx3 4 ieee 15 std_logic_arith
+Mx2 4 ieee 18 std_logic_unsigned
+Z15 Mx1 3 std 6 textio
+R6
+R7

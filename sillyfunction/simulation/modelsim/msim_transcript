@@ -1,0 +1,49 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do sillyfunction_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/91sp2/projetos/sillyfunction.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sillyfunction
+# -- Compiling architecture synth of sillyfunction
+# 
+# vcom -93 -work work {D:/projetos/testbench/testbench_sillyfunction.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Compiling entity testbench_sillyfunction
+# -- Compiling architecture sim of testbench_sillyfunction
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L cycloneii -L rtl_work -L work -voptargs="+acc" testbench_sillyfunction
+# vsim -L altera -L lpm -L sgate -L altera_mf -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testbench_sillyfunction 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.testbench_sillyfunction(sim)
+# Loading work.sillyfunction(synth)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: NO ERRORS -- 8 tests completed successfully.
+#    Time: 85 ns  Iteration: 1  Process: /testbench_sillyfunction/line__27 File: D:/projetos/testbench/testbench_sillyfunction.vhd
+# Break in Process line__27 at D:/projetos/testbench/testbench_sillyfunction.vhd line 59
+# Simulation Breakpoint: Break in Process line__27 at D:/projetos/testbench/testbench_sillyfunction.vhd line 59
+# MACRO ./sillyfunction_run_msim_rtl_vhdl.do PAUSED at line 17

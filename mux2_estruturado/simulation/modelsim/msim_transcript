@@ -1,0 +1,69 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux2_estruturado_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {mux2_estruturado.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity mux2_estruturado
+# -- Compiling architecture structure of mux2_estruturado
+# 
+# vcom -93 -work work {C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux2_estruturado/testbench_mux2_estruturado/testbench_mux2_estruturado.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_mux2_estruturado
+# -- Compiling architecture sim of testbench_mux2_estruturado
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=mux2_estruturado_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_mux2_estruturado
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=mux2_estruturado_vhd.sdo -t 1ps testbench_mux2_estruturado 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_mux2_estruturado(sim)
+# SDF 6.5b Compiler 2009.10 Oct  1 2009
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.mux2_estruturado(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from mux2_estruturado_vhd.sdo
+# Loading timing data from mux2_estruturado_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_mux2_estruturado  File: C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux2_estruturado/testbench_mux2_estruturado/testbench_mux2_estruturado.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Failure: Just kidding --8tests completed successfully.
+#    Time: 115 ns  Iteration: 1  Process: /testbench_mux2_estruturado/line__74 File: C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux2_estruturado/testbench_mux2_estruturado/testbench_mux2_estruturado.vhd
+# Break in Process line__74 at C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux2_estruturado/testbench_mux2_estruturado/testbench_mux2_estruturado.vhd line 90
+# Simulation Breakpoint: Break in Process line__74 at C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux2_estruturado/testbench_mux2_estruturado/testbench_mux2_estruturado.vhd line 90
+# MACRO ./mux2_estruturado_run_msim_gate_vhdl.do PAUSED at line 17

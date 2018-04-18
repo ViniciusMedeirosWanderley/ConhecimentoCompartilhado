@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\projeto2\simulation\modelsim
+Esillyfunction2
+Z1 w1521819610
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 o=N0l8I4MJLjBjVhHea821
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneii 20 cycloneii_components 0 22 en5XKOfU;kEMlD9<lVMcX1
+Z8 dD:\projeto2\simulation\modelsim
+Z9 8sillyfunction2.vho
+Z10 Fsillyfunction2.vho
+l0
+L34
+VSTi?chjJeT5Hm2C;]fFg^3
+Z11 OV;C;10.0c;49
+31
+Z12 !s108 1521819627.283000
+Z13 !s90 -reportprogress|300|-93|-work|work|sillyfunction2.vho|
+Z14 !s107 sillyfunction2.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+!s100 Nk7b[B?a>_KQWJWOXe5Vi3
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 14 sillyfunction2 0 22 STi?chjJeT5Hm2C;]fFg^3
+l68
+L49
+V_SNHF0PKg^X@hiVhmMm_H3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 H4ie@3OW<C`4m=5:AX^fW3
+Etestbench_sillyfunction2
+Z17 w1521818804
+Z18 DPx4 ieee 16 std_logic_textio 0 22 nS@;e8VD1o]DCVjBMSZYk3
+R5
+R6
+R8
+Z19 8D:/projeto2/testbench/testbench_sillyfunction2.vhd
+Z20 FD:/projeto2/testbench/testbench_sillyfunction2.vhd
+l0
+L3
+V]9i3h>AFn:5^h^fO]bjKj1
+!s100 :>`6bm8:726FOo=TF_S;B2
+R11
+31
+Z21 !s108 1521819627.924000
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/projeto2/testbench/testbench_sillyfunction2.vhd|
+Z23 !s107 D:/projeto2/testbench/testbench_sillyfunction2.vhd|
+R15
+R16
+Asim
+R18
+R5
+R6
+DEx4 work 24 testbench_sillyfunction2 0 22 ]9i3h>AFn:5^h^fO]bjKj1
+l13
+L5
+Vj8gzLd1n>^5GAiP67ZO3c3
+!s100 YiFoPV4b2nS4_O?OG`^3R0
+R11
+31
+R21
+R22
+R23
+R15
+R16

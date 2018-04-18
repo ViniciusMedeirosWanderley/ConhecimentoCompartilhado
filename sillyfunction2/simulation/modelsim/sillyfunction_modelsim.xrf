@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/91sp2/quartus/projetos/sillyfunction.vhd
+source_file = 1, C:/altera/91sp2/quartus/projetos/testbench_sillyfunction.vhd
+source_file = 1, C:/altera/91sp2/quartus/projetos/db/sillyfunction.cbx.xml
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = sillyfunction
+instance = comp, \c~I\, c, sillyfunction, 1
+instance = comp, \a~I\, a, sillyfunction, 1
+instance = comp, \b~I\, b, sillyfunction, 1
+instance = comp, \y~0\, y~0, sillyfunction, 1
+instance = comp, \y~I\, y, sillyfunction, 1

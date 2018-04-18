@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {D:/Preparação4/mux2_estruturado/mux2_estruturado.vhd}
+vcom -93 -work work {D:/Preparação4/mux2_estruturado/tristate.vhd}
+

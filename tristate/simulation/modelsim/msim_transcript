@@ -1,0 +1,106 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do tristate_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {tristate.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package stratixii_atom_pack
+# -- Loading package stratixii_components
+# -- Compiling entity tristate
+# -- Compiling architecture structure of tristate
+# 
+# vcom -93 -work work {D:/Preparação4/tristate/testbench/testbench_tristate.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_tristate
+# -- Compiling architecture sim of testbench_tristate
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=tristate_vhd.sdo -L stratixii -L gate_work -L work -voptargs="+acc" testbench_tristate
+# vsim +transport_int_delays +transport_path_delays -L stratixii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=tristate_vhd.sdo -t 1ps testbench_tristate 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_tristate(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading stratixii.stratixii_atom_pack(body)
+# Loading stratixii.stratixii_components
+# Loading work.tristate(structure)
+# Loading stratixii.stratixii_io(structure)
+# Loading stratixii.stratixii_io_register(vital_io_reg)
+# Loading stratixii.stratixii_io_latch(vital_io_latch)
+# Loading stratixii.stratixii_and1(altvital)
+# Loading stratixii.stratixii_mux21(altvital)
+# Loading stratixii.stratixii_asynch_io(behave)
+# Loading instances from tristate_vhd.sdo
+# Loading timing data from tristate_vhd.sdo
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 1
+#           Attempting to use alternate WLF file "./wlftqg080t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqg080t
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_tristate File: D:/Preparação4/tristate/testbench/testbench_tristate.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /testbench_tristate
+# ** Failure: Just kidding --4tests completed successfully.
+#    Time: 70 ns  Iteration: 1  Process: /testbench_tristate/line__74 File: D:/Preparação4/tristate/testbench/testbench_tristate.vhd
+# Break in Process line__74 at D:/Preparação4/tristate/testbench/testbench_tristate.vhd line 92
+# Simulation Breakpoint: Break in Process line__74 at D:/Preparação4/tristate/testbench/testbench_tristate.vhd line 92
+# MACRO ./tristate_run_msim_gate_vhdl.do PAUSED at line 17

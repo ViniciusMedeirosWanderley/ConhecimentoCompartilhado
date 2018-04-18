@@ -1,0 +1,76 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vinic\Dropbox\3 Periodo\Circuitos Lógicos\Preparação4\mux2_estruturado\simulation\modelsim
+Emux2_estruturado
+Z1 w1524089496
+Z2 DPx4 ieee 16 vital_primitives 0 22 E9g6AWKAc2T]enMfl94If3
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 ^b]h7<:P=[Wke=Uj5D@Y71
+Z4 DPx4 ieee 12 vital_timing 0 22 OBWK>;kUYmkG<OChK2lhV1
+Z5 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z6 DPx9 cycloneii 20 cycloneii_components 0 22 Ee5;nF>::XbgUE[nGVeKZ0
+Z7 8mux2_estruturado.vho
+Z8 Fmux2_estruturado.vho
+l0
+L34
+VIn<hPML9BQe2LGoldmB;D3
+Z9 OV;C;6.5b;42
+31
+Z10 o-93 -work work -O0
+Z11 tExplicit 1
+!s100 WhO7^iN_eNZR3cB=ES=0Y2
+Astructure
+R2
+R3
+R4
+R5
+R6
+DEx4 work 16 mux2_estruturado 0 22 In<hPML9BQe2LGoldmB;D3
+l80
+L58
+VRBDlfIAZ5FKeKEfgb@fl=3
+R9
+31
+Mx5 9 cycloneii 20 cycloneii_components
+Z12 Mx4 4 ieee 14 std_logic_1164
+Mx3 4 ieee 12 vital_timing
+Mx2 9 cycloneii 19 cycloneii_atom_pack
+Mx1 4 ieee 16 vital_primitives
+R10
+R11
+!s100 Y2_^cho32?CSJE:LXkb>z1
+Etestbench_mux2_estruturado
+Z13 w1523630800
+Z14 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z16 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R5
+Z17 8C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux2_estruturado/testbench_mux2_estruturado/testbench_mux2_estruturado.vhd
+Z18 FC:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux2_estruturado/testbench_mux2_estruturado/testbench_mux2_estruturado.vhd
+l0
+L9
+VTaLo]lZQ?V>KzOmH3XS_C1
+!s100 [WflSRaDaNQ>T=n`01BIg3
+R9
+31
+R10
+R11
+Asim
+R14
+R15
+R16
+R5
+DEx4 work 26 testbench_mux2_estruturado 0 22 TaLo]lZQ?V>KzOmH3XS_C1
+l26
+L11
+V18Bj=U4mc864_hd6g1i_?2
+!s100 bNzQR]2K;G=^g887P:klo3
+R9
+31
+R12
+Mx3 4 ieee 15 std_logic_arith
+Mx2 4 ieee 18 std_logic_unsigned
+Z19 Mx1 3 std 6 textio
+R10
+R11
