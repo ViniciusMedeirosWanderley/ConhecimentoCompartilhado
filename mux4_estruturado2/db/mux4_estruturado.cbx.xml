@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="mux4_estruturado">
 	</PROJECT>
 </LOG_ROOT>
+=======
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mux4_estruturado">
+	</PROJECT>
+</LOG_ROOT>
+>>>>>>> 995b63df5e9ee88801d316310e5ccdcb269c0878

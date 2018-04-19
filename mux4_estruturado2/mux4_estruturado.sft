@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 set tool_name "ModelSim-Altera (VHDL)"
 set corner_file_list {
 	{{"Slow Model"} {mux4_estruturado.vho mux4_estruturado_vhd.sdo}}
 }
+=======
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {mux4_estruturado.vho mux4_estruturado_vhd.sdo}}
+}
+>>>>>>> 995b63df5e9ee88801d316310e5ccdcb269c0878

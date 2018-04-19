@@ -39,7 +39,11 @@ variable ch: character;
 begin
 	-- read file of test vectors
 	i := 0;
+<<<<<<< HEAD
 	FILE_OPEN (tv, "tbmux4.tv", READ_MODE);
+=======
+	FILE_OPEN (tv, "./tbmux4.tv", READ_MODE);
+>>>>>>> 995b63df5e9ee88801d316310e5ccdcb269c0878
 	while not endfile(tv) loop
 		readline (tv, L);
 		for j in 21 downto 0 loop --número de colunas.

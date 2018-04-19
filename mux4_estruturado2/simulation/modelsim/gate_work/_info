@@ -2,6 +2,7 @@ m255
 K3
 13
 cModel Technology
+<<<<<<< HEAD
 Z0 dC:\Users\vinic\Dropbox\3 Periodo\Circuitos Lógicos\Preparação4\mux4_estruturado2\simulation\modelsim
 Emux4_estruturado
 Z1 w1524103214
@@ -20,12 +21,38 @@ Z9 OV;C;6.5b;42
 Z10 o-93 -work work -O0
 Z11 tExplicit 1
 !s100 5FzKjM:U;A@KETG^I;CmF1
+=======
+Z0 dD:\Relatório 4\mux4_estruturado2\simulation\modelsim
+Emux4_estruturado
+Z1 w1523643558
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 o=N0l8I4MJLjBjVhHea821
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneii 20 cycloneii_components 0 22 en5XKOfU;kEMlD9<lVMcX1
+Z8 dD:\Relatório 4\mux4_estruturado2\simulation\modelsim
+Z9 8mux4_estruturado.vho
+Z10 Fmux4_estruturado.vho
+l0
+L34
+VUjU2`KNagoF_@F[WGm4Zb0
+Z11 OV;C;10.0c;49
+31
+Z12 !s108 1523643568.977000
+Z13 !s90 -reportprogress|300|-93|-work|work|mux4_estruturado.vho|
+Z14 !s107 mux4_estruturado.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+!s100 `==>;Td^>ii7E;LUD7m5m0
+>>>>>>> 995b63df5e9ee88801d316310e5ccdcb269c0878
 Astructure
 R2
 R3
 R4
 R5
 R6
+<<<<<<< HEAD
 DEx4 work 16 mux4_estruturado 0 22 YAQ`Kf4c?67^7m1`@PWZz1
 l99
 L69
@@ -74,3 +101,55 @@ Mx2 4 ieee 18 std_logic_unsigned
 Z19 Mx1 3 std 6 textio
 R10
 R11
+=======
+R7
+DEx4 work 16 mux4_estruturado 0 22 UjU2`KNagoF_@F[WGm4Zb0
+l99
+L69
+V@bgRf9=kB?Jn>d6hDWE7A3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 GP44?a:18ikaaalU_NfA_2
+Etestbench_mux4
+Z17 w1523643544
+Z18 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z19 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R5
+R6
+R8
+Z20 8D:/Relatório 4/mux4_estruturado2/testbench_mux4.vhd
+Z21 FD:/Relatório 4/mux4_estruturado2/testbench_mux4.vhd
+l0
+L7
+VMzoh6`ETMMgH]0oY8iQ;g3
+!s100 SD1DViEf[jJO@1kzM_^`z1
+R11
+31
+Z22 !s108 1523643570.916000
+Z23 !s90 -reportprogress|300|-93|-work|work|D:/Relatório 4/mux4_estruturado2/testbench_mux4.vhd|
+Z24 !s107 D:/Relatório 4/mux4_estruturado2/testbench_mux4.vhd|
+R15
+R16
+Asim
+R18
+R19
+R5
+R6
+DEx4 work 14 testbench_mux4 0 22 Mzoh6`ETMMgH]0oY8iQ;g3
+l24
+L9
+V4gL^Q:5[hcZDK[[4k4Y^g3
+!s100 HRbDjI4OcfkFVX0]oSh7z0
+R11
+31
+R22
+R23
+R24
+R15
+R16
+>>>>>>> 995b63df5e9ee88801d316310e5ccdcb269c0878
