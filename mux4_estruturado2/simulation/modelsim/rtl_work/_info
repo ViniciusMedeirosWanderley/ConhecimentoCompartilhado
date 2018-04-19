@@ -1,0 +1,139 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vinic\Dropbox\3 Periodo\Circuitos Lógicos\Preparação4\mux4_estruturado2\simulation\modelsim
+Einv
+Z1 w1523628876
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 8C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/inv.vhd
+Z4 FC:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/inv.vhd
+l0
+L3
+Vd^S7_KVdoW]Q[IDXMS7DV2
+Z5 OV;C;6.5b;42
+31
+Z6 o-93 -work work -O0
+Z7 tExplicit 1
+!s100 VJSeZo;XGFdXhbIjKe5Ug1
+Asynth
+R2
+DEx4 work 3 inv 0 22 d^S7_KVdoW]Q[IDXMS7DV2
+l9
+L8
+VN`VCmS67Y3m23?SU=^1L<1
+R5
+31
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 <XJlJ=SF=35k4fGgNzh2^1
+Emux2_estruturado
+Z9 w1523629700
+R2
+Z10 8C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/mux2_estruturado.vhd
+Z11 FC:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/mux2_estruturado.vhd
+l0
+L3
+V[Y<6i;LEU_LVKPzfczdzz1
+R5
+31
+R6
+R7
+!s100 D_efzoO9?EJORE`QJLe^L0
+Astruct
+R2
+DEx4 work 16 mux2_estruturado 0 22 [Y<6i;LEU_LVKPzfczdzz1
+l21
+L9
+VEa^GZdYha29^N8WYF2o6E2
+R5
+31
+R8
+R6
+R7
+!s100 TO;E>aeRXfBQEZ0Rdg7Bd3
+Emux4_estruturado
+Z12 w1523631638
+R2
+Z13 8C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/mux4_estruturado.vhd
+Z14 FC:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/mux4_estruturado.vhd
+l0
+L3
+VbAWi6Q6Fngdh]jT>JW3Yl1
+R5
+31
+R6
+R7
+!s100 X`LcYO5De9eHLEY<H<gK02
+Astruct
+R2
+DEx4 work 16 mux4_estruturado 0 22 bAWi6Q6Fngdh]jT>JW3Yl1
+l18
+L10
+VZbACi2`@Sa53YFOElLEV_3
+R5
+31
+R8
+R6
+R7
+!s100 W1ck4bR4Hc?6Z29?FbDRU2
+Etestbench_mux4
+Z15 w1524088884
+Z16 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z18 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R2
+Z19 8C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/testbench_mux4.vhd
+Z20 FC:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/testbench_mux4.vhd
+l0
+L7
+VggoY]4AmoQAUd=O9bNfJK3
+!s100 YD8gN3QYzURd7FlQO[n0L3
+R5
+31
+R6
+R7
+Asim
+R16
+R17
+R18
+R2
+DEx4 work 14 testbench_mux4 0 22 ggoY]4AmoQAUd=O9bNfJK3
+l24
+L9
+VBUnaFfnWH^gm<72KK4XZM3
+!s100 LRT=f;7mHLAc7NkLcnBJG3
+R5
+31
+Mx4 4 ieee 14 std_logic_1164
+Mx3 4 ieee 15 std_logic_arith
+Mx2 4 ieee 18 std_logic_unsigned
+Z21 Mx1 3 std 6 textio
+R6
+R7
+Etristate
+Z22 w1523623016
+R2
+Z23 8C:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/tristate.vhd
+Z24 FC:/Users/vinic/Dropbox/3 Periodo/Circuitos Lógicos/Preparação4/mux4_estruturado2/tristate.vhd
+l0
+L3
+V`Izef[U>mmDD1XKoD9Fcb1
+R5
+31
+R6
+R7
+!s100 Z2C3=Em7[G2STT03iE0nJ2
+Asynth
+R2
+DEx4 work 8 tristate 0 22 `Izef[U>mmDD1XKoD9Fcb1
+l10
+L9
+VOSk]45i^Pdmi@KWJU1`b@3
+R5
+31
+R8
+R6
+R7
+!s100 f;_8fHL<bMQ0zDGT35K>=3

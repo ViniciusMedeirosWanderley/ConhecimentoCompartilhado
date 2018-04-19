@@ -1,0 +1,182 @@
+|mux4_estruturado
+d0[0] => mux2_estruturado:lowmux.d0[0]
+d0[1] => mux2_estruturado:lowmux.d0[1]
+d0[2] => mux2_estruturado:lowmux.d0[2]
+d0[3] => mux2_estruturado:lowmux.d0[3]
+d1[0] => mux2_estruturado:lowmux.d1[0]
+d1[1] => mux2_estruturado:lowmux.d1[1]
+d1[2] => mux2_estruturado:lowmux.d1[2]
+d1[3] => mux2_estruturado:lowmux.d1[3]
+d2[0] => mux2_estruturado:highmux.d0[0]
+d2[1] => mux2_estruturado:highmux.d0[1]
+d2[2] => mux2_estruturado:highmux.d0[2]
+d2[3] => mux2_estruturado:highmux.d0[3]
+d3[0] => mux2_estruturado:highmux.d1[0]
+d3[1] => mux2_estruturado:highmux.d1[1]
+d3[2] => mux2_estruturado:highmux.d1[2]
+d3[3] => mux2_estruturado:highmux.d1[3]
+s[0] => mux2_estruturado:lowmux.s
+s[0] => mux2_estruturado:highmux.s
+s[1] => mux2_estruturado:finalmux.s
+y[0] <= mux2_estruturado:finalmux.y[0]
+y[1] <= mux2_estruturado:finalmux.y[1]
+y[2] <= mux2_estruturado:finalmux.y[2]
+y[3] <= mux2_estruturado:finalmux.y[3]
+
+
+|mux4_estruturado|mux2_estruturado:lowmux
+d0[0] => tristate:t0.a[0]
+d0[1] => tristate:t0.a[1]
+d0[2] => tristate:t0.a[2]
+d0[3] => tristate:t0.a[3]
+d1[0] => tristate:t1.a[0]
+d1[1] => tristate:t1.a[1]
+d1[2] => tristate:t1.a[2]
+d1[3] => tristate:t1.a[3]
+s => inv:tinv.a
+s => tristate:t1.en
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:lowmux|inv:tinv
+a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:lowmux|tristate:t0
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+en => y[0].OE
+en => y[1].OE
+en => y[2].OE
+en => y[3].OE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:lowmux|tristate:t1
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+en => y[0].OE
+en => y[1].OE
+en => y[2].OE
+en => y[3].OE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:highmux
+d0[0] => tristate:t0.a[0]
+d0[1] => tristate:t0.a[1]
+d0[2] => tristate:t0.a[2]
+d0[3] => tristate:t0.a[3]
+d1[0] => tristate:t1.a[0]
+d1[1] => tristate:t1.a[1]
+d1[2] => tristate:t1.a[2]
+d1[3] => tristate:t1.a[3]
+s => inv:tinv.a
+s => tristate:t1.en
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:highmux|inv:tinv
+a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:highmux|tristate:t0
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+en => y[0].OE
+en => y[1].OE
+en => y[2].OE
+en => y[3].OE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:highmux|tristate:t1
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+en => y[0].OE
+en => y[1].OE
+en => y[2].OE
+en => y[3].OE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:finalmux
+d0[0] => tristate:t0.a[0]
+d0[1] => tristate:t0.a[1]
+d0[2] => tristate:t0.a[2]
+d0[3] => tristate:t0.a[3]
+d1[0] => tristate:t1.a[0]
+d1[1] => tristate:t1.a[1]
+d1[2] => tristate:t1.a[2]
+d1[3] => tristate:t1.a[3]
+s => inv:tinv.a
+s => tristate:t1.en
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:finalmux|inv:tinv
+a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:finalmux|tristate:t0
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+en => y[0].OE
+en => y[1].OE
+en => y[2].OE
+en => y[3].OE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4_estruturado|mux2_estruturado:finalmux|tristate:t1
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+en => y[0].OE
+en => y[1].OE
+en => y[2].OE
+en => y[3].OE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
