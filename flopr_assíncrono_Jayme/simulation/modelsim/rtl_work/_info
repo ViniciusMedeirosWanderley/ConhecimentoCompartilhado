@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Relatório 5\flopr\simulation\modelsim
+Eflopr
+Z1 w1524248124
+Z2 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\Relatório 5\flopr\simulation\modelsim
+Z5 8D:/Relatório 5/flopr/flopr.vhd
+Z6 FD:/Relatório 5/flopr/flopr.vhd
+l0
+L3
+VToAk25CA2h23`;J3Ecz6d2
+Z7 OV;C;10.0c;49
+31
+Z8 !s108 1524505157.846000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Relatório 5/flopr/flopr.vhd|
+Z10 !s107 D:/Relatório 5/flopr/flopr.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 6VUmDd_OFJ81eY?g5?T9[2
+Aasynchronous
+R2
+R3
+DEx4 work 5 flopr 0 22 ToAk25CA2h23`;J3Ecz6d2
+l10
+L9
+V1[cFl>5PiIF[9Zc_BF7ig0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 =EZFzSX?g@1LIk[^FaIbj1
+Etestbench_flopr
+Z13 w1524505124
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z15 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+Z16 8D:/Relatório 5/flopr/testbench/testbench_flopr.vhd
+Z17 FD:/Relatório 5/flopr/testbench/testbench_flopr.vhd
+l0
+L7
+V8BF16GURiVYKLLjlOziMT3
+!s100 Q?8AhN:;JGj1J73ChMo692
+R7
+31
+Z18 !s108 1524505158.222000
+Z19 !s90 -reportprogress|300|-93|-work|work|D:/Relatório 5/flopr/testbench/testbench_flopr.vhd|
+Z20 !s107 D:/Relatório 5/flopr/testbench/testbench_flopr.vhd|
+R11
+R12
+Asim
+R14
+R15
+R2
+R3
+DEx4 work 15 testbench_flopr 0 22 8BF16GURiVYKLLjlOziMT3
+l27
+L9
+VSdkH`UzWON3b4bLHc?3Si1
+!s100 lzUT8oh_JPkB85kBdjW^Y2
+R7
+31
+R18
+R19
+R20
+R11
+R12
