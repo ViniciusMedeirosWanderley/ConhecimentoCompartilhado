@@ -1,0 +1,468 @@
+|cla16
+a[0] => cla4_fatorada:somador4_0.a[0]
+a[1] => cla4_fatorada:somador4_0.a[1]
+a[2] => cla4_fatorada:somador4_0.a[2]
+a[3] => cla4_fatorada:somador4_0.a[3]
+a[4] => cla4_fatorada:somador4_1.a[0]
+a[5] => cla4_fatorada:somador4_1.a[1]
+a[6] => cla4_fatorada:somador4_1.a[2]
+a[7] => cla4_fatorada:somador4_1.a[3]
+a[8] => cla4_fatorada:somador4_2.a[0]
+a[9] => cla4_fatorada:somador4_2.a[1]
+a[10] => cla4_fatorada:somador4_2.a[2]
+a[11] => cla4_fatorada:somador4_2.a[3]
+a[12] => cla4_fatorada:somador4_3.a[0]
+a[13] => cla4_fatorada:somador4_3.a[1]
+a[14] => cla4_fatorada:somador4_3.a[2]
+a[15] => cla4_fatorada:somador4_3.a[3]
+b[0] => cla4_fatorada:somador4_0.b[0]
+b[1] => cla4_fatorada:somador4_0.b[1]
+b[2] => cla4_fatorada:somador4_0.b[2]
+b[3] => cla4_fatorada:somador4_0.b[3]
+b[4] => cla4_fatorada:somador4_1.b[0]
+b[5] => cla4_fatorada:somador4_1.b[1]
+b[6] => cla4_fatorada:somador4_1.b[2]
+b[7] => cla4_fatorada:somador4_1.b[3]
+b[8] => cla4_fatorada:somador4_2.b[0]
+b[9] => cla4_fatorada:somador4_2.b[1]
+b[10] => cla4_fatorada:somador4_2.b[2]
+b[11] => cla4_fatorada:somador4_2.b[3]
+b[12] => cla4_fatorada:somador4_3.b[0]
+b[13] => cla4_fatorada:somador4_3.b[1]
+b[14] => cla4_fatorada:somador4_3.b[2]
+b[15] => cla4_fatorada:somador4_3.b[3]
+cin => cla4_fatorada:somador4_0.cin
+cin => vuafatorada:carry.cin
+s[0] <= cla4_fatorada:somador4_0.s[0]
+s[1] <= cla4_fatorada:somador4_0.s[1]
+s[2] <= cla4_fatorada:somador4_0.s[2]
+s[3] <= cla4_fatorada:somador4_0.s[3]
+s[4] <= cla4_fatorada:somador4_1.s[0]
+s[5] <= cla4_fatorada:somador4_1.s[1]
+s[6] <= cla4_fatorada:somador4_1.s[2]
+s[7] <= cla4_fatorada:somador4_1.s[3]
+s[8] <= cla4_fatorada:somador4_2.s[0]
+s[9] <= cla4_fatorada:somador4_2.s[1]
+s[10] <= cla4_fatorada:somador4_2.s[2]
+s[11] <= cla4_fatorada:somador4_2.s[3]
+s[12] <= cla4_fatorada:somador4_3.s[0]
+s[13] <= cla4_fatorada:somador4_3.s[1]
+s[14] <= cla4_fatorada:somador4_3.s[2]
+s[15] <= cla4_fatorada:somador4_3.s[3]
+cout <= vuafatorada:carry.c[4]
+p << vuafatorada:carry.pg
+g << vuafatorada:carry.gg
+
+
+|cla16|cla4_fatorada:somador4_0
+a[0] => fulladder_pg:somador_0.a
+a[1] => fulladder_pg:somador_1.a
+a[2] => fulladder_pg:somador_2.a
+a[3] => fulladder_pg:somador_3.a
+b[0] => fulladder_pg:somador_0.b
+b[1] => fulladder_pg:somador_1.b
+b[2] => fulladder_pg:somador_2.b
+b[3] => fulladder_pg:somador_3.b
+cin => fulladder_pg:somador_0.cin
+cin => vuafatorada:carry.cin
+s[0] <= fulladder_pg:somador_0.s
+s[1] <= fulladder_pg:somador_1.s
+s[2] <= fulladder_pg:somador_2.s
+s[3] <= fulladder_pg:somador_3.s
+p <= vuafatorada:carry.pg
+g <= vuafatorada:carry.gg
+
+
+|cla16|cla4_fatorada:somador4_0|fulladder_pg:somador_0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_0|fulladder_pg:somador_1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_0|fulladder_pg:somador_2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_0|fulladder_pg:somador_3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_0|vuafatorada:carry
+cin => c.IN0
+p[0] => pg.IN0
+p[0] => c.IN1
+p[1] => pg.IN1
+p[1] => gg.IN1
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => c.IN1
+g[0] => gg.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
+g[2] => c.IN1
+g[3] => gg.IN1
+g[3] => c.IN1
+pg <= pg.DB_MAX_OUTPUT_PORT_TYPE
+gg <= gg.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_1
+a[0] => fulladder_pg:somador_0.a
+a[1] => fulladder_pg:somador_1.a
+a[2] => fulladder_pg:somador_2.a
+a[3] => fulladder_pg:somador_3.a
+b[0] => fulladder_pg:somador_0.b
+b[1] => fulladder_pg:somador_1.b
+b[2] => fulladder_pg:somador_2.b
+b[3] => fulladder_pg:somador_3.b
+cin => fulladder_pg:somador_0.cin
+cin => vuafatorada:carry.cin
+s[0] <= fulladder_pg:somador_0.s
+s[1] <= fulladder_pg:somador_1.s
+s[2] <= fulladder_pg:somador_2.s
+s[3] <= fulladder_pg:somador_3.s
+p <= vuafatorada:carry.pg
+g <= vuafatorada:carry.gg
+
+
+|cla16|cla4_fatorada:somador4_1|fulladder_pg:somador_0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_1|fulladder_pg:somador_1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_1|fulladder_pg:somador_2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_1|fulladder_pg:somador_3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_1|vuafatorada:carry
+cin => c.IN0
+p[0] => pg.IN0
+p[0] => c.IN1
+p[1] => pg.IN1
+p[1] => gg.IN1
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => c.IN1
+g[0] => gg.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
+g[2] => c.IN1
+g[3] => gg.IN1
+g[3] => c.IN1
+pg <= pg.DB_MAX_OUTPUT_PORT_TYPE
+gg <= gg.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_2
+a[0] => fulladder_pg:somador_0.a
+a[1] => fulladder_pg:somador_1.a
+a[2] => fulladder_pg:somador_2.a
+a[3] => fulladder_pg:somador_3.a
+b[0] => fulladder_pg:somador_0.b
+b[1] => fulladder_pg:somador_1.b
+b[2] => fulladder_pg:somador_2.b
+b[3] => fulladder_pg:somador_3.b
+cin => fulladder_pg:somador_0.cin
+cin => vuafatorada:carry.cin
+s[0] <= fulladder_pg:somador_0.s
+s[1] <= fulladder_pg:somador_1.s
+s[2] <= fulladder_pg:somador_2.s
+s[3] <= fulladder_pg:somador_3.s
+p <= vuafatorada:carry.pg
+g <= vuafatorada:carry.gg
+
+
+|cla16|cla4_fatorada:somador4_2|fulladder_pg:somador_0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_2|fulladder_pg:somador_1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_2|fulladder_pg:somador_2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_2|fulladder_pg:somador_3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_2|vuafatorada:carry
+cin => c.IN0
+p[0] => pg.IN0
+p[0] => c.IN1
+p[1] => pg.IN1
+p[1] => gg.IN1
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => c.IN1
+g[0] => gg.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
+g[2] => c.IN1
+g[3] => gg.IN1
+g[3] => c.IN1
+pg <= pg.DB_MAX_OUTPUT_PORT_TYPE
+gg <= gg.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_3
+a[0] => fulladder_pg:somador_0.a
+a[1] => fulladder_pg:somador_1.a
+a[2] => fulladder_pg:somador_2.a
+a[3] => fulladder_pg:somador_3.a
+b[0] => fulladder_pg:somador_0.b
+b[1] => fulladder_pg:somador_1.b
+b[2] => fulladder_pg:somador_2.b
+b[3] => fulladder_pg:somador_3.b
+cin => fulladder_pg:somador_0.cin
+cin => vuafatorada:carry.cin
+s[0] <= fulladder_pg:somador_0.s
+s[1] <= fulladder_pg:somador_1.s
+s[2] <= fulladder_pg:somador_2.s
+s[3] <= fulladder_pg:somador_3.s
+p <= vuafatorada:carry.pg
+g <= vuafatorada:carry.gg
+
+
+|cla16|cla4_fatorada:somador4_3|fulladder_pg:somador_0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_3|fulladder_pg:somador_1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_3|fulladder_pg:somador_2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_3|fulladder_pg:somador_3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|cla4_fatorada:somador4_3|vuafatorada:carry
+cin => c.IN0
+p[0] => pg.IN0
+p[0] => c.IN1
+p[1] => pg.IN1
+p[1] => gg.IN1
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => c.IN1
+g[0] => gg.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
+g[2] => c.IN1
+g[3] => gg.IN1
+g[3] => c.IN1
+pg <= pg.DB_MAX_OUTPUT_PORT_TYPE
+gg <= gg.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cla16|vuafatorada:carry
+cin => c.IN0
+p[0] => pg.IN0
+p[0] => c.IN1
+p[1] => pg.IN1
+p[1] => gg.IN1
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => c.IN1
+g[0] => gg.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
+g[2] => c.IN1
+g[3] => gg.IN1
+g[3] => c.IN1
+pg <= pg.DB_MAX_OUTPUT_PORT_TYPE
+gg <= gg.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
