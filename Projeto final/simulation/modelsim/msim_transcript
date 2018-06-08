@@ -1,0 +1,1355 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# do calculadora_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {calculadora.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity calculadora
+# -- Compiling architecture structure of calculadora
+# 
+# vcom -93 -work work {C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_calculadora
+# -- Compiling architecture sim of testbench_calculadora
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=calculadora_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_calculadora
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=calculadora_vhd.sdo -t 1ps testbench_calculadora 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_calculadora(sim)
+# SDF 6.5b Compiler 2009.10 Oct  1 2009
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.calculadora(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading instances from calculadora_vhd.sdo
+# Loading timing data from calculadora_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_calculadora  File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(5) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(6) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(7) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(8) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(9) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(13) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(14) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(15) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '1', valor obtido = '0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Failure: 16tests completed, errors = 17
+#    Time: 315 ns  Iteration: 1  Process: /testbench_calculadora/line__78 File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# Simulation Breakpoint: Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# MACRO ./calculadora_run_msim_gate_vhdl.do PAUSED at line 17
+do calculadora_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {calculadora.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity calculadora
+# -- Compiling architecture structure of calculadora
+# 
+# vcom -93 -work work {C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_calculadora
+# -- Compiling architecture sim of testbench_calculadora
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=calculadora_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_calculadora
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=calculadora_vhd.sdo -t 1ps testbench_calculadora 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_calculadora(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.calculadora(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading instances from calculadora_vhd.sdo
+# Loading timing data from calculadora_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_calculadora  File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='1'Valor Obtido: s(0) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='1'Valor Obtido: s(1) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='1'Valor Obtido: s(2) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='1'Valor Obtido: s(3) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='1'Valor Obtido: s(4) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='1'Valor Obtido: s(10) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='1'Valor Obtido: s(11) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='1'Valor Obtido: s(12) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '1', valor obtido = '0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Failure: 16tests completed, errors = 17
+#    Time: 315 ns  Iteration: 1  Process: /testbench_calculadora/line__78 File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# Simulation Breakpoint: Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# MACRO ./calculadora_run_msim_gate_vhdl.do PAUSED at line 17
+do calculadora_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {calculadora.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity calculadora
+# -- Compiling architecture structure of calculadora
+# 
+# vcom -93 -work work {C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_calculadora
+# -- Compiling architecture sim of testbench_calculadora
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=calculadora_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_calculadora
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=calculadora_vhd.sdo -t 1ps testbench_calculadora 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_calculadora(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.calculadora(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading instances from calculadora_vhd.sdo
+# Loading timing data from calculadora_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_calculadora  File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(5) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(6) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(7) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(8) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(9) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(13) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(14) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(15) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '1', valor obtido = '0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Failure: 16tests completed, errors = 17
+#    Time: 315 ns  Iteration: 1  Process: /testbench_calculadora/line__78 File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# Simulation Breakpoint: Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# MACRO ./calculadora_run_msim_gate_vhdl.do PAUSED at line 17
+do calculadora_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {calculadora.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity calculadora
+# -- Compiling architecture structure of calculadora
+# 
+# vcom -93 -work work {C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_calculadora
+# -- Compiling architecture sim of testbench_calculadora
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=calculadora_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_calculadora
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=calculadora_vhd.sdo -t 1ps testbench_calculadora 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_calculadora(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.calculadora(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading instances from calculadora_vhd.sdo
+# Loading timing data from calculadora_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_calculadora  File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Failure: Just kidding --16tests completed successfully.
+#    Time: 363 ns  Iteration: 1  Process: /testbench_calculadora/line__78 File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 101
+# Simulation Breakpoint: Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 101
+# MACRO ./calculadora_run_msim_gate_vhdl.do PAUSED at line 17
+add list \
+{sim:/testbench_calculadora/clk } \
+{sim:/testbench_calculadora/clk2 } \
+{sim:/testbench_calculadora/a } \
+{sim:/testbench_calculadora/s } \
+{sim:/testbench_calculadora/sexpected } \
+{sim:/testbench_calculadora/s0 } \
+{sim:/testbench_calculadora/s1 } \
+{sim:/testbench_calculadora/cout } \
+{sim:/testbench_calculadora/coutexpected } 
+do calculadora_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {calculadora.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity calculadora
+# -- Compiling architecture structure of calculadora
+# 
+# vcom -93 -work work {C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_calculadora
+# -- Compiling architecture sim of testbench_calculadora
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=calculadora_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_calculadora
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=calculadora_vhd.sdo -t 1ps testbench_calculadora 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_calculadora(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.calculadora(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading instances from calculadora_vhd.sdo
+# Loading timing data from calculadora_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_calculadora  File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(0) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(1) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(2) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(3) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(4) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(5) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(6) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(7) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(8) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(9) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(10) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(11) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(12) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(13) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(14) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(15) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '0', valor obtido = 'X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='1'Valor Obtido: s(0) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(0) ='1'
+#    Time: 45 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='1'Valor Obtido: s(1) ='0'
+#    Time: 45 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(1) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='1'Valor Obtido: s(2) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 6. Esperado sesp ='1'Valor Obtido: s(0) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 6. Esperado sesp ='1'Valor Obtido: s(1) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 6. Esperado sesp ='0'Valor Obtido: s(2) ='1'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 7. Esperado sesp ='0'Valor Obtido: s(0) ='1'
+#    Time: 75 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 7. Esperado sesp ='0'Valor Obtido: s(1) ='1'
+#    Time: 75 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 7. Esperado sesp ='1'Valor Obtido: s(2) ='0'
+#    Time: 75 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 8. Esperado sesp ='0'Valor Obtido: s(2) ='1'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 10. Esperado sesp ='1'Valor Obtido: s(0) ='0'
+#    Time: 105 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(0) ='1'
+#    Time: 125 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '1', valor obtido = '0'
+#    Time: 125 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(0) ='0'
+#    Time: 135 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(1) ='0'
+#    Time: 135 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(2) ='0'
+#    Time: 135 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(3) ='0'
+#    Time: 135 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(4) ='0'
+#    Time: 135 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(10) ='0'
+#    Time: 135 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(11) ='0'
+#    Time: 135 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(12) ='0'
+#    Time: 135 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='0'Valor Obtido: s(0) ='1'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(0) ='0'
+#    Time: 155 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='0'Valor Obtido: s(1) ='1'
+#    Time: 155 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '1', valor obtido = '0'
+#    Time: 155 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Failure: 16tests completed, errors = 195
+#    Time: 155 ns  Iteration: 1  Process: /testbench_calculadora/line__78 File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# Simulation Breakpoint: Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# MACRO ./calculadora_run_msim_gate_vhdl.do PAUSED at line 17
+do calculadora_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {calculadora.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity calculadora
+# -- Compiling architecture structure of calculadora
+# 
+# vcom -93 -work work {C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_calculadora
+# -- Compiling architecture sim of testbench_calculadora
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=calculadora_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_calculadora
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=calculadora_vhd.sdo -t 1ps testbench_calculadora 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_calculadora(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.calculadora(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading instances from calculadora_vhd.sdo
+# Loading timing data from calculadora_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_calculadora  File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(0) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(1) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(2) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(3) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(4) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(5) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(6) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(7) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(8) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(9) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(10) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(11) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(12) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(13) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(14) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 0. Esperado sesp ='0'Valor Obtido: s(15) ='U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '0', valor obtido = 'U'
+#    Time: 1 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(0) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(1) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(2) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(3) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(4) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(5) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(6) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(7) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(8) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(9) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(10) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(11) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(12) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(13) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(14) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 1. Esperado sesp ='0'Valor Obtido: s(15) ='U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '0', valor obtido = 'U'
+#    Time: 3 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='1'Valor Obtido: s(0) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(1) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(2) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(3) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(4) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(5) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(6) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(7) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(8) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(9) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(10) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(11) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(12) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(13) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(14) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 2. Esperado sesp ='0'Valor Obtido: s(15) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '0', valor obtido = 'X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='1'Valor Obtido: s(0) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(1) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(2) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(3) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(4) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(5) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(6) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(7) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(8) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(9) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(10) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(11) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(12) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(13) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(14) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 3. Esperado sesp ='0'Valor Obtido: s(15) ='X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '0', valor obtido = 'X'
+#    Time: 7 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: */LCELL_FF HOLD  Low VIOLATION ON SDATA WITH RESPECT TO CLK;
+#   Expected := 0.266 ns; Observed := 0.041 ns; At : 8.402 ns
+#    Time: 8402 ps  Iteration: 4  Instance: /testbench_calculadora/dut/\acumulador|q[0]\
+# ** Warning: */LCELL_FF HOLD  Low VIOLATION ON SDATA WITH RESPECT TO CLK;
+#   Expected := 0.266 ns; Observed := 0.142 ns; At : 8.5 ns
+#    Time: 8500 ps  Iteration: 4  Instance: /testbench_calculadora/dut/\acumulador|q[4]\
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(0) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='1'Valor Obtido: s(1) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(2) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(3) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(4) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(5) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(6) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(7) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(8) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(9) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(10) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(11) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(12) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(13) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(14) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 4. Esperado sesp ='0'Valor Obtido: s(15) ='X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '0', valor obtido = 'X'
+#    Time: 9 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(0) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(1) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='1'Valor Obtido: s(2) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(3) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(4) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(5) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(6) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(7) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(8) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(9) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(10) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(11) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(12) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(13) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(14) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 5. Esperado sesp ='0'Valor Obtido: s(15) ='X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '0', valor obtido = 'X'
+#    Time: 11 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 6. Esperado sesp ='1'Valor Obtido: s(0) ='0'
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 6. Esperado sesp ='1'Valor Obtido: s(1) ='0'
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 6. Esperado sesp ='0'Valor Obtido: s(6) ='X'
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 6. Esperado sesp ='0'Valor Obtido: s(7) ='X'
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 6. Esperado sesp ='0'Valor Obtido: s(11) ='X'
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '0', valor obtido = 'X'
+#    Time: 13 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 7. Esperado sesp ='1'Valor Obtido: s(2) ='0'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 7. Esperado sesp ='0'Valor Obtido: s(11) ='X'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '0', valor obtido = 'X'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: */LCELL_FF HOLD  Low VIOLATION ON SDATA WITH RESPECT TO CLK;
+#   Expected := 0.266 ns; Observed := 0.028 ns; At : 16.385 ns
+#    Time: 16385 ps  Iteration: 4  Instance: /testbench_calculadora/dut/\acumulador|q[8]\
+# ** Warning: */LCELL_FF HOLD High VIOLATION ON SDATA WITH RESPECT TO CLK;
+#   Expected := 0.266 ns; Observed := 0.034 ns; At : 16.403 ns
+#    Time: 16403 ps  Iteration: 4  Instance: /testbench_calculadora/dut/\acumulador|q[1]\
+# ** Warning: */LCELL_FF HOLD  Low VIOLATION ON SDATA WITH RESPECT TO CLK;
+#   Expected := 0.266 ns; Observed := 0.256 ns; At : 16.617 ns
+#    Time: 16617 ps  Iteration: 4  Instance: /testbench_calculadora/dut/\acumulador|q[0]\
+# ** Error: Vetor deu erro n. Teste: 8. Esperado sesp ='0'Valor Obtido: s(0) ='1'
+#    Time: 17 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 9. Esperado sesp ='0'Valor Obtido: s(0) ='1'
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 9. Esperado sesp ='0'Valor Obtido: s(8) ='X'
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: */LCELL_FF HOLD   X  VIOLATION ON SDATA WITH RESPECT TO CLK;
+#   Expected := 0.266 ns; Observed := 0.072 ns; At : 20.431 ns
+#    Time: 20431 ps  Iteration: 4  Instance: /testbench_calculadora/dut/\acumulador|q[2]\
+# ** Error: Vetor deu erro n. Teste: 10. Esperado sesp ='1'Valor Obtido: s(0) ='0'
+#    Time: 21 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 10. Esperado sesp ='0'Valor Obtido: s(1) ='1'
+#    Time: 21 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 11. Esperado sesp ='0'Valor Obtido: s(1) ='X'
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 11. Esperado sesp ='0'Valor Obtido: s(2) ='1'
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: */LCELL_FF HOLD  Low VIOLATION ON SDATA WITH RESPECT TO CLK;
+#   Expected := 0.266 ns; Observed := 0.034 ns; At : 24.403 ns
+#    Time: 24403 ps  Iteration: 4  Instance: /testbench_calculadora/dut/\acumulador|q[1]\
+# ** Warning: */LCELL_FF HOLD  Low VIOLATION ON SDATA WITH RESPECT TO CLK;
+#   Expected := 0.266 ns; Observed := 0.256 ns; At : 24.617 ns
+#    Time: 24617 ps  Iteration: 4  Instance: /testbench_calculadora/dut/\acumulador|q[0]\
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(0) ='X'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(1) ='X'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 12. Esperado sesp ='0'Valor Obtido: s(8) ='X'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '1', valor obtido = '0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(0) ='X'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(1) ='X'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(2) ='X'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(3) ='X'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(4) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(5) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(6) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(7) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(8) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(9) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(10) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(11) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(12) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(13) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(14) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 13. Esperado sesp ='1'Valor Obtido: s(15) ='0'
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(1) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(2) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(3) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(4) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(5) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(6) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(7) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(8) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(9) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(10) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(11) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(12) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(13) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(14) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 14. Esperado sesp ='1'Valor Obtido: s(15) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(0) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(2) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(3) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(4) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(5) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(6) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(7) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(8) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(9) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(10) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(11) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(12) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(13) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(14) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Vetor deu erro n. Teste: 15. Esperado sesp ='1'Valor Obtido: s(15) ='0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Error: Cout deu erro. Esperado = '1', valor obtido = '0'
+#    Time: 31 ns  Iteration: 1  Instance: /testbench_calculadora
+# ** Failure: 16tests completed, errors = 266
+#    Time: 31 ns  Iteration: 1  Process: /testbench_calculadora/line__78 File: C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+# Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# Simulation Breakpoint: Break in Process line__78 at C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd line 106
+# MACRO ./calculadora_run_msim_gate_vhdl.do PAUSED at line 17

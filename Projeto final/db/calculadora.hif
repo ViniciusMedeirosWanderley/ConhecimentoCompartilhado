@@ -1,0 +1,432 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+904
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+calculadora
+# storage
+db|calculadora.(0).cnf
+db|calculadora.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+calculadora.vhd
+11cdb781fe063bd9e390fb94fe3cb
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+inv
+# storage
+db|calculadora.(1).cnf
+db|calculadora.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+inv.vhd
+a845b3dde2fad21d73cf7ec215928b66
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(a)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(y)
+15 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+inv:inversor
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+mux2
+# storage
+db|calculadora.(2).cnf
+db|calculadora.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+mux2.vhd
+17ea44a385529d5f5a30dfca884785c
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(d0)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(d1)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(y)
+15 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+mux2:multiplexador0
+mux2:multiplexador1
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+flop
+# storage
+db|calculadora.(3).cnf
+db|calculadora.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+flop.vhd
+68f5269624832b5b2c55f79c0ca877d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(d)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(q)
+15 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+flop:acumulador
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+cla16
+# storage
+db|calculadora.(4).cnf
+db|calculadora.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+cla16.vhd
+c81a7a22e1a34ecc3b7b8bf1d3d6081
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(a)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(b)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(s)
+15 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+cla16:somador
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+cla4
+# storage
+db|calculadora.(5).cnf
+db|calculadora.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+cla4.vhd
+5ee232cdc41d1e83944c54466fa1f1fe
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(a)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(b)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(s)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+cla16:somador|cla4:cla4_1
+cla16:somador|cla4:cla4_2
+cla16:somador|cla4:cla4_3
+cla16:somador|cla4:cla4_4
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+vuaparalela
+# storage
+db|calculadora.(6).cnf
+db|calculadora.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+vuaparalela.vhd
+a477af5a7222744271f18f357879a8
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(p)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(g)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(c)
+4 downto 1
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+cla16:somador|cla4:cla4_1|vuaparalela:carry
+cla16:somador|cla4:cla4_2|vuaparalela:carry
+cla16:somador|cla4:cla4_3|vuaparalela:carry
+cla16:somador|cla4:cla4_4|vuaparalela:carry
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+fulladder
+# storage
+db|calculadora.(7).cnf
+db|calculadora.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+fulladder.vhd
+e896c8605e80eb6b751b37ab6c845fed
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+cla16:somador|cla4:cla4_1|fulladder:somador0
+cla16:somador|cla4:cla4_1|fulladder:somador1
+cla16:somador|cla4:cla4_1|fulladder:somador2
+cla16:somador|cla4:cla4_1|fulladder:somador3
+cla16:somador|cla4:cla4_2|fulladder:somador0
+cla16:somador|cla4:cla4_2|fulladder:somador1
+cla16:somador|cla4:cla4_2|fulladder:somador2
+cla16:somador|cla4:cla4_2|fulladder:somador3
+cla16:somador|cla4:cla4_3|fulladder:somador0
+cla16:somador|cla4:cla4_3|fulladder:somador1
+cla16:somador|cla4:cla4_3|fulladder:somador2
+cla16:somador|cla4:cla4_3|fulladder:somador3
+cla16:somador|cla4:cla4_4|fulladder:somador0
+cla16:somador|cla4:cla4_4|fulladder:somador1
+cla16:somador|cla4:cla4_4|fulladder:somador2
+cla16:somador|cla4:cla4_4|fulladder:somador3
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+vuaparalela16bits
+# storage
+db|calculadora.(8).cnf
+db|calculadora.(8).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+vuaparalela16bits.vhd
+fc43f1d8e677618e118a606170c44e3
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(p)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(g)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(c)
+4 downto 1
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+cla16:somador|vuaparalela16bits:v1
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+

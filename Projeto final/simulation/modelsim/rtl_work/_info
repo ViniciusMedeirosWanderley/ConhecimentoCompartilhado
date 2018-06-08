@@ -1,0 +1,264 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Italo\Desktop\Projeto final\simulation\modelsim
+Ecalculadora
+Z1 w1528479257
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 8C:/Users/Italo/Desktop/Projeto final/calculadora.vhd
+Z4 FC:/Users/Italo/Desktop/Projeto final/calculadora.vhd
+l0
+L3
+V:H_Jic2gg^V2GeQ461@]A3
+Z5 OV;C;6.5b;42
+31
+Z6 o-93 -work work -O0
+Z7 tExplicit 1
+!s100 <eec=j=jW>7RDiH^VD7z90
+Astruct
+R2
+DEx4 work 11 calculadora 0 22 :H_Jic2gg^V2GeQ461@]A3
+l39
+L10
+VQ:TBnCWm<RaVUAP]Q5[Tb2
+R5
+31
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 3Xf_go;>5Le5`LTZA?86[1
+Ecla16
+Z9 w1528467910
+R2
+Z10 8C:/Users/Italo/Desktop/Projeto final/cla16.vhd
+Z11 FC:/Users/Italo/Desktop/Projeto final/cla16.vhd
+l0
+L3
+V2iEQA_gXUiCT3HV?>mW=I1
+R5
+31
+R6
+R7
+!s100 GXYb`]H:GehM7jJR`ei[:0
+Astruct
+R2
+DEx4 work 5 cla16 0 22 2iEQA_gXUiCT3HV?>mW=I1
+l31
+L10
+VdiY05TehHhY5?HVc2<R]93
+R5
+31
+R8
+R6
+R7
+!s100 Qa;oTYA@>iVAe<ENKAgYc1
+Ecla4
+Z12 w1527870214
+R2
+Z13 8C:/Users/Italo/Desktop/Projeto final/cla4.vhd
+Z14 FC:/Users/Italo/Desktop/Projeto final/cla4.vhd
+l0
+L3
+V56Ym]SPVLam`<5aQko@nK3
+R5
+31
+R6
+R7
+!s100 hVdPmCoJ]J6nKfTKO77[W1
+Astruct
+R2
+DEx4 work 4 cla4 0 22 56Ym]SPVLam`<5aQko@nK3
+l29
+L11
+VP`omi39gN`;AaMR2;CGXI2
+R5
+31
+R8
+R6
+R7
+!s100 3cZEi4An7NThP@5WjUD[=1
+Eflop
+Z15 w1528476912
+R2
+Z16 8C:/Users/Italo/Desktop/Projeto final/flop.vhd
+Z17 FC:/Users/Italo/Desktop/Projeto final/flop.vhd
+l0
+L3
+VH4:<4dP=Udm;IBk]?FfPE1
+R5
+31
+R6
+R7
+!s100 Am>HOMj<0W7;33z_1TgPU3
+Asynth
+R2
+DEx4 work 4 flop 0 22 H4:<4dP=Udm;IBk]?FfPE1
+l10
+L9
+VXQ09^Q4WVQ3j[MmWAZQ061
+R5
+31
+R8
+R6
+R7
+!s100 hEd7FF>8::zO5J<5PV]2P2
+Efulladder
+R12
+R2
+Z18 8C:/Users/Italo/Desktop/Projeto final/fulladder.vhd
+Z19 FC:/Users/Italo/Desktop/Projeto final/fulladder.vhd
+l0
+L3
+VCL;>mXLi5K=0e=9?Ih=cf2
+R5
+31
+R6
+R7
+!s100 BaVSc^m0iEA9kXm`[h:[91
+Asynth
+R2
+DEx4 work 9 fulladder 0 22 CL;>mXLi5K=0e=9?Ih=cf2
+l11
+L9
+VXCQQnGhRMXOmN`X0e@Teh0
+R5
+31
+R8
+R6
+R7
+!s100 7W>dW^k@n;IV_@:@;bOaA1
+Einv
+Z20 w1528479281
+R2
+Z21 8C:/Users/Italo/Desktop/Projeto final/inv.vhd
+Z22 FC:/Users/Italo/Desktop/Projeto final/inv.vhd
+l0
+L4
+VIklhSzZGfZ[2TJQ;=HezC1
+R5
+31
+R6
+R7
+!s100 zL2=Rdih[YfR[=_f_k3X71
+Asynth
+R2
+DEx4 work 3 inv 0 22 IklhSzZGfZ[2TJQ;=HezC1
+l11
+L10
+VejOAEhlTXT1EYD3kiZ1?P2
+R5
+31
+R8
+R6
+R7
+!s100 D<kWImCe:dh3P2Okgg;C>0
+Emux2
+Z23 w1528476930
+R2
+Z24 8C:/Users/Italo/Desktop/Projeto final/mux2.vhd
+Z25 FC:/Users/Italo/Desktop/Projeto final/mux2.vhd
+l0
+L3
+V7GnhHQEV>SQe:4_nc[:>G2
+R5
+31
+R6
+R7
+!s100 `JIHG@8fPb@zC?6UU0HMz3
+Asynth
+R2
+DEx4 work 4 mux2 0 22 7GnhHQEV>SQe:4_nc[:>G2
+l12
+L10
+VH0=COiaOCLRWiN1Q61[[J0
+R5
+31
+R8
+R6
+R7
+!s100 AE8z_f`6aX58k9zEY@;XP1
+Etestbench_calculadora
+Z26 w1528485546
+Z27 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z28 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z29 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R2
+Z30 8C:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+Z31 FC:/Users/Italo/Desktop/Projeto final/testbench/testbench_calculadora.vhd
+l0
+L7
+VIU5TD50FM=DUSMOeT1SM62
+!s100 ]ebXD[X3]YB9>fKRkdz1X2
+R5
+31
+R6
+R7
+Asim
+R27
+R28
+R29
+R2
+DEx4 work 21 testbench_calculadora 0 22 IU5TD50FM=DUSMOeT1SM62
+l28
+L11
+VKFV?SYFNcRTeRBjeIQcE[3
+!s100 ejzGoJgXV6@F:az6md]@@0
+R5
+31
+Mx4 4 ieee 14 std_logic_1164
+Mx3 4 ieee 15 std_logic_arith
+Mx2 4 ieee 18 std_logic_unsigned
+Z32 Mx1 3 std 6 textio
+R6
+R7
+Evuaparalela
+R12
+R2
+Z33 8C:/Users/Italo/Desktop/Projeto final/vuaparalela.vhd
+Z34 FC:/Users/Italo/Desktop/Projeto final/vuaparalela.vhd
+l0
+L3
+VH`b0PF;P<H5c=379zP=kj3
+R5
+31
+R6
+R7
+!s100 ]c3M9H[ZOR5W5>SKYKGJg0
+Asynth
+R2
+DEx4 work 11 vuaparalela 0 22 H`b0PF;P<H5c=379zP=kj3
+l12
+L10
+VPE@gPXP9OXk5A[3ZP?mf92
+R5
+31
+R8
+R6
+R7
+!s100 P0fjTO_>EYg7X=OR=oOaM2
+Evuaparalela16bits
+R12
+R2
+Z35 8C:/Users/Italo/Desktop/Projeto final/vuaparalela16bits.vhd
+Z36 FC:/Users/Italo/Desktop/Projeto final/vuaparalela16bits.vhd
+l0
+L3
+VzZkbmQc?H]n1TNYdSBG_Z3
+R5
+31
+R6
+R7
+!s100 m@`Zi1XZML4zl^E@hX3CD0
+Asynth
+R2
+DEx4 work 17 vuaparalela16bits 0 22 zZkbmQc?H]n1TNYdSBG_Z3
+l11
+L10
+V9^8eE64W7M^=RQ8K1gb1N1
+R5
+31
+R8
+R6
+R7
+!s100 8eG=fEjhGjE?[;TNT5O[f2
